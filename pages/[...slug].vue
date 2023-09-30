@@ -1,8 +1,7 @@
 <template>
   <main>
     <ContentDoc />
-    <!-- <NuxtLink v-for="blog in blogs" :to="blog.path">{{ blog.title }}</NuxtLink> -->
-    {{ blogs }}
+    <NuxtLink v-for="blog in blogs" :to="blog._path">{{ blog.title }}</NuxtLink>
   </main>
 </template>
 
